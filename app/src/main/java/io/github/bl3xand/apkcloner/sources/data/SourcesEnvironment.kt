@@ -15,7 +15,7 @@ import org.json.JSONObject
 /** Connects the Android-free sources code to the device: settings, device facts and texts. */
 object SourcesEnvironment {
     private const val REFERENCE_NAME = "Obtainium"
-    private const val OWN_NAME = "APK Toolbox"
+    private const val OWN_NAME = "Aru-Phantom"
 
     @Volatile
     private var loadedLanguage: String? = null
@@ -45,6 +45,7 @@ object SourcesEnvironment {
     /** The texts ship as the reference's JSON catalogues: English, Russian and Chinese. */
     private fun loadTexts(context: Context) {
         val language = when (context.resources.configuration.locales[0].language) {
+            "ja" -> "ja"
             "ru" -> "ru"
             "zh" -> "zh"
             else -> "en"

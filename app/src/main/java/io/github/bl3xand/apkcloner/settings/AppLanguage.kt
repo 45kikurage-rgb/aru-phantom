@@ -11,6 +11,7 @@ enum class AppLanguage(val tag: String, val ownName: String) {
     /** No choice: whatever the system is set to. */
     SYSTEM("", ""),
     ENGLISH("en", "English"),
+    JAPANESE("ja", "日本語"),
     RUSSIAN("ru", "Русский"),
     CHINESE("zh", "中文");
 

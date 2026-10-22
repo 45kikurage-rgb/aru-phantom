@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name" translatable="false">APK Toolbox</string>
+    <string name="app_name" translatable="false">Aru-Phantom</string>
 
     <string name="access_title">File access required</string>
-    <string name="access_description">Allow access to all files so APK Toolbox can work with APKs in shared storage.</string>
+    <string name="access_description">Allow access to all files so Aru-Phantom can work with APKs in shared storage.</string>
     <string name="install_access_title">Install permission required</string>
-    <string name="install_access_description">Allow APK Toolbox to install apps so clones can be installed and updated right from here.</string>
+    <string name="install_access_description">Allow Aru-Phantom to install apps so clones can be installed and updated right from here.</string>
     <string name="button_grant_access">Grant access</string>
 
     <string name="tab_apps">Cloning</string>
@@ -26,7 +26,7 @@
     <string name="clone_conflict">An app with this package name is already installed and is signed with another key: the clone cannot be installed over it. Give the clone another package name or remove the installed app.</string>
     <string name="clone_conflict_remove">Remove the installed app</string>
     <string name="error_invalid_package">Use at least two dot-separated parts made of letters, digits and underscores</string>
-    <string name="signature_hint">The clone is signed with APK Toolbox\'s key, not the original one: a signature stops matching once the app is modified.</string>
+    <string name="signature_hint">The clone is signed with Aru-Phantom\'s key, not the original one: a signature stops matching once the app is modified.</string>
     <string name="button_clone">Clone</string>
     <string name="button_install">Install</string>
     <string name="button_save">Save</string>
@@ -51,7 +51,7 @@
     <string name="switch_no_updates">Do not update</string>
     <string name="clone_show_in_sources">Show in Sources</string>
     <string name="clone_track">Update from a source</string>
-    <string name="clone_track_message">A clone is rebuilt from the installed original, so it stops being updated when the original is removed - and Google Play hands its files to nobody else. APK Toolbox can look the app up by its package in stores that carry the same builds (APKPure, RuStore, Galaxy Store and others, one after another) and keep the clone up to date from there, in the Sources tab. The original can then be removed. An update signed by someone else than the original is refused.</string>
+    <string name="clone_track_message">A clone is rebuilt from the installed original, so it stops being updated when the original is removed - and Google Play hands its files to nobody else. Aru-Phantom can look the app up by its package in stores that carry the same builds (APKPure, RuStore, Galaxy Store and others, one after another) and keep the clone up to date from there, in the Sources tab. The original can then be removed. An update signed by someone else than the original is refused.</string>
     <string name="detail_original_version">Original version</string>
     <string name="detail_clone_version">Clone version</string>
     <string name="detail_removed_permissions">Removed permissions</string>
@@ -71,9 +71,9 @@
         <item>every 6 months</item>
         <item>once a year</item>
     </string-array>
-    <string name="settings_version" translatable="false">APK Toolbox %1$s</string>
-    <string name="source_link" translatable="false">github.com/bl3xand/APK-Toolbox</string>
-    <string name="source_url" translatable="false">https://github.com/bl3xand/APK-Toolbox</string>
+    <string name="settings_version" translatable="false">Aru-Phantom %1$s</string>
+    <string name="source_link" translatable="false">github.com/45kikurage-rgb/aru-phantom</string>
+    <string name="source_url" translatable="false">https://github.com/45kikurage-rgb/aru-phantom</string>
 
     <string name="channel_updates">Clone updates</string>
     <string name="settings_play_protect_button">Play Protect settings</string>
@@ -92,13 +92,13 @@
 
     <string name="shizuku_not_running_title">Shizuku is not running</string>
     <string name="shizuku_not_running">Start Shizuku and come back. Until then the standard method is used.</string>
-    <string name="shizuku_description">APK Toolbox uses Shizuku to install and update clones without prompts. Grant access to enable it; until then the standard method is used.</string>
+    <string name="shizuku_description">Aru-Phantom uses Shizuku to install and update clones without prompts. Grant access to enable it; until then the standard method is used.</string>
     <string name="shizuku_granted_description">Updates are installed without confirmation.</string>
     <string name="play_protect_on_title">Play Protect is on</string>
     <string name="play_protect_unknown_title">Play Protect may get in the way</string>
     <string name="play_protect_on_description">While it is on, clones are not updated in the background by this method: you get a notification and update by hand. Apps from sources are not affected. Turning app scanning off lifts the limit but lowers the protection of the device.</string>
     <string name="play_protect_off_title">Play Protect is off</string>
-    <string name="play_protect_off_description">Apps installed through APK Toolbox, clones included, are updated without confirmation.</string>
+    <string name="play_protect_off_description">Apps installed through Aru-Phantom, clones included, are updated without confirmation.</string>
 
     <string name="settings_check_updates">Check for updates</string>
     <string name="settings_check_updates_description">In the background, on schedule. You get a notification about what was found.</string>
@@ -162,7 +162,7 @@
     <string name="settings_check_sources">Apps from sources</string>
     <string name="settings_check_sources_description">New versions of apps from the Sources tab.</string>
     <string name="settings_sources">Sources settings</string>
-    <string name="sources_share_label">Track in APK Toolbox</string>
+    <string name="sources_share_label">Track in Aru-Phantom</string>
     <string name="sources_empty">No tracked apps yet.\nAdd one by its link or find it through search.</string>
     <string name="sources_add">Add app</string>
     <string name="sources_filter">Filter</string>
@@ -173,7 +173,7 @@
     <string name="settings_check_clones">Clones</string>
     <string name="settings_check_clones_description">A clone is outdated when its original was updated or a new version is available in its source.</string>
     <string name="settings_check_on_start">Check when the app opens</string>
-    <string name="settings_check_on_start_description">Updates of apps from sources and of clones are looked for every time APK Toolbox is opened.</string>
+    <string name="settings_check_on_start_description">Updates of apps from sources and of clones are looked for every time Aru-Phantom is opened.</string>
     <string name="settings_wifi_only">Wait for Wi-Fi</string>
     <string name="settings_wifi_only_description">Updates found on mobile data are installed once Wi-Fi is connected.</string>
     <string name="settings_charging_only">Wait for the charger</string>

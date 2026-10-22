@@ -1,8 +1,8 @@
 <resources>
     <string name="access_title">Нужен доступ к файлам</string>
-    <string name="access_description">Разрешите доступ ко всем файлам, чтобы APK Toolbox мог работать с APK в общем хранилище.</string>
+    <string name="access_description">Разрешите доступ ко всем файлам, чтобы Aru-Phantom мог работать с APK в общем хранилище.</string>
     <string name="install_access_title">Нужно разрешение на установку</string>
-    <string name="install_access_description">Разрешите APK Toolbox устанавливать приложения, чтобы устанавливать и обновлять их прямо отсюда.</string>
+    <string name="install_access_description">Разрешите Aru-Phantom устанавливать приложения, чтобы устанавливать и обновлять их прямо отсюда.</string>
     <string name="button_grant_access">Разрешить</string>
 
     <string name="tab_apps">Клонирование</string>
@@ -24,7 +24,7 @@
     <string name="clone_conflict">Приложение с таким именем пакета уже установлено и подписано другим ключом: клон поверх него не установится. Задайте клону другое имя пакета или удалите установленное приложение.</string>
     <string name="clone_conflict_remove">Удалить установленное</string>
     <string name="error_invalid_package">Нужно минимум две части через точку: буквы, цифры и подчёркивания</string>
-    <string name="signature_hint">Клон подписывается ключом APK Toolbox, а не ключом издателя: после изменения приложения исходная подпись становится недействительной.</string>
+    <string name="signature_hint">Клон подписывается ключом Aru-Phantom, а не ключом издателя: после изменения приложения исходная подпись становится недействительной.</string>
     <string name="button_clone">Клонировать</string>
     <string name="button_install">Установить</string>
     <string name="button_save">Сохранить</string>
@@ -49,7 +49,7 @@
     <string name="switch_no_updates">Не обновлять</string>
     <string name="clone_show_in_sources">Показать в источниках</string>
     <string name="clone_track">Обновлять из источника</string>
-    <string name="clone_track_message">Клон пересобирается из установленного оригинала, поэтому без него перестаёт обновляться, а Google Play свои файлы никому не отдаёт. APK Toolbox может найти приложение по пакету в магазинах с теми же сборками (APKPure, RuStore, Galaxy Store и другие, по очереди) и обновлять клон оттуда, через вкладку «Источники». Оригинал после этого можно удалить. Обновление, подписанное другим ключом, чем оригинал, не установится.</string>
+    <string name="clone_track_message">Клон пересобирается из установленного оригинала, поэтому без него перестаёт обновляться, а Google Play свои файлы никому не отдаёт. Aru-Phantom может найти приложение по пакету в магазинах с теми же сборками (APKPure, RuStore, Galaxy Store и другие, по очереди) и обновлять клон оттуда, через вкладку «Источники». Оригинал после этого можно удалить. Обновление, подписанное другим ключом, чем оригинал, не установится.</string>
     <string name="detail_original_version">Версия оригинала</string>
     <string name="detail_clone_version">Версия клона</string>
     <string name="detail_removed_permissions">Удалённые разрешения</string>
@@ -86,13 +86,13 @@
 
     <string name="shizuku_not_running_title">Shizuku не запущен</string>
     <string name="shizuku_not_running">Запустите Shizuku и вернитесь. До тех пор используется стандартный способ.</string>
-    <string name="shizuku_description">APK Toolbox использует Shizuku, чтобы устанавливать и обновлять клоны без подтверждений. Выдайте доступ, чтобы включить этот способ; до тех пор используется стандартный.</string>
+    <string name="shizuku_description">Aru-Phantom использует Shizuku, чтобы устанавливать и обновлять клоны без подтверждений. Выдайте доступ, чтобы включить этот способ; до тех пор используется стандартный.</string>
     <string name="shizuku_granted_description">Обновления устанавливаются без подтверждений.</string>
     <string name="play_protect_on_title">Play Защита включена</string>
     <string name="play_protect_unknown_title">Play Защита может мешать</string>
     <string name="play_protect_on_description">Пока она включена, клоны в фоне этим способом не обновляются: придёт уведомление, обновить нужно вручную. На приложения из источников это не влияет. Отключение проверки приложений снимает ограничение, но снижает защиту устройства.</string>
     <string name="play_protect_off_title">Play Защита отключена</string>
-    <string name="play_protect_off_description">Приложения, установленные через APK Toolbox, включая клоны, обновляются без подтверждения.</string>
+    <string name="play_protect_off_description">Приложения, установленные через Aru-Phantom, включая клоны, обновляются без подтверждения.</string>
 
     <string name="settings_check_updates">Проверять обновления</string>
     <string name="settings_check_updates_description">В фоне по расписанию. О найденном придёт уведомление.</string>
@@ -155,7 +155,7 @@
     <string name="settings_check_sources">Приложения из источников</string>
     <string name="settings_check_sources_description">Новые версии приложений со вкладки «Источники».</string>
     <string name="settings_sources">Настройки источников</string>
-    <string name="sources_share_label">Отслеживать в APK Toolbox</string>
+    <string name="sources_share_label">Отслеживать в Aru-Phantom</string>
     <string name="sources_empty">Пока нет отслеживаемых приложений.\nДобавьте по ссылке или найдите через поиск.</string>
     <string name="sources_add">Добавить приложение</string>
     <string name="sources_filter">Фильтр</string>
@@ -166,7 +166,7 @@
     <string name="settings_check_clones">Клоны</string>
     <string name="settings_check_clones_description">Клон устарел, если обновился его оригинал или в источнике доступна новая версия.</string>
     <string name="settings_check_on_start">Проверять при запуске</string>
-    <string name="settings_check_on_start_description">Обновления приложений из источников и клонов проверяются при каждом открытии APK Toolbox.</string>
+    <string name="settings_check_on_start_description">Обновления приложений из источников и клонов проверяются при каждом открытии Aru-Phantom.</string>
     <string name="settings_wifi_only">Ждать Wi-Fi</string>
     <string name="settings_wifi_only_description">Найденное в мобильной сети установится при подключении к Wi-Fi.</string>
     <string name="settings_charging_only">Ждать зарядку</string>

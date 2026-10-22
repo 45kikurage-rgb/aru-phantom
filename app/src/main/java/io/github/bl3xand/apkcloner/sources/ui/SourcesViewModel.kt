@@ -114,7 +114,7 @@ class SourcesViewModel(application: Application) : AndroidViewModel(application)
             // one for this device is the one to take, or the only one of an older release.
             val abi = Regex.escape(Build.SUPPORTED_ABIS.firstOrNull().orEmpty())
             repo.saveApps(
-                listOf(app.copy(id = self, allowIdChange = false).withSetting("apkFilterRegEx", "$abi\\.apk$|APK-Toolbox-[0-9.]+\\.apk$")),
+                listOf(app.copy(id = self, allowIdChange = false).withSetting("apkFilterRegEx", "$abi\\.apk$|Aru-Phantom-[0-9A-Za-z.+-]+\\.apk$")),
                 onlyIfExists = false,
             )
             AppLog.info("Added this app to the tracked ones, from $SELF_URL")
@@ -693,7 +693,7 @@ class SourcesViewModel(application: Application) : AndroidViewModel(application)
     }
 
     private companion object {
-        const val SELF_URL = "https://github.com/bl3xand/APK-Toolbox"
+        const val SELF_URL = "https://github.com/45kikurage-rgb/aru-phantom"
 
         /** Stores that hand out, by package name, the builds other stores publish. */
         /**

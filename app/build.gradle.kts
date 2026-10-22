@@ -27,12 +27,12 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.bl3xand.apkcloner"
+        applicationId = "com.aruno.aruphantom"
         // Android 8.0: adaptive icons and notification channels, which the app counts on.
         minSdk = 26
         targetSdk = 36
-        versionCode = 11
-        versionName = "1.1.4"
+        versionCode = 12
+        versionName = "1.1.4-aruno.1"
 
         buildConfigField("int", "TELEGRAM_API_ID", (telegramProperties.getProperty("apiId")?.trim()?.toIntOrNull() ?: 0).toString())
         buildConfigField("String", "TELEGRAM_API_HASH", "\"${telegramProperties.getProperty("apiHash")?.trim().orEmpty()}\"")
